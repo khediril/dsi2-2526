@@ -1,4 +1,4 @@
-# 🛠️ Atelier PHP : Maîtriser les Formulaires Avancés (3 Heures)
+# Atelier PHP : Maîtriser les Formulaires Avancés (3 Heures)
 
 Cet atelier guidé couvre la création d'un formulaire HTML riche, sa soumission via **POST** et le traitement des données côté serveur avec PHP, en se concentrant sur les champs standards et les sélections multiples (**radio, checkbox, select multiple, textarea**).
 
