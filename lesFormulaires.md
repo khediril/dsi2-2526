@@ -1,15 +1,10 @@
-Pour créer un fichier téléchargeable en Markdown, je vais générer le contenu de l'atelier sous forme de bloc de code `markdown`, que vous pourrez copier-coller dans un fichier texte et nommer par exemple **`atelier_php_formulaires.md`**.
-
-Voici le contenu de l'atelier complet, incluant les champs avancés et la validation, prêt à être utilisé.
-
-````markdown
 # 🛠️ Atelier PHP : Maîtriser les Formulaires Avancés (3 Heures)
 
 Cet atelier guidé couvre la création d'un formulaire HTML riche, sa soumission via **POST** et le traitement des données côté serveur avec PHP, en se concentrant sur les champs standards et les sélections multiples (**radio, checkbox, select multiple, textarea**).
 
 ---
 
-## Phase 1 : Création du Formulaire HTML Avancé (45 min)
+## Phase 1 : Création du Formulaire HTML Avancé
 
 ### 🎯 Objectifs
 * Définir un formulaire avec l'action (`action="traitement.php"`) et la méthode (`method="post"`) appropriées.
