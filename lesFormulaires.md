@@ -74,7 +74,7 @@ Cet atelier guidé couvre la création d'un formulaire HTML riche, sa soumission
 
 -----
 
-## Phase 2 : Récupération et Affichage des Données (60 min)
+## Phase 2 : Récupération et Affichage des Données
 
 ### 🎯 Objectifs
 
@@ -138,7 +138,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 -----
 
-## Phase 3 : Validation et Sécurité des Données (75 min)
+## Phase 3 : Validation et Sécurité des Données
 
 ### 🎯 Objectifs
 
