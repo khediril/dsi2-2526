@@ -4,7 +4,7 @@ Cet atelier vise à comprendre le fonctionnement des formulaires HTML et leur tr
 
 -----
 
-## Phase 1 : Introduction et Formulaire HTML (45 min)
+## Phase 1 : Introduction et Formulaire HTML 
 
 ### Objectifs
 
@@ -36,7 +36,7 @@ Cet atelier vise à comprendre le fonctionnement des formulaires HTML et leur tr
 
 -----
 
-## Phase 2 : Récupération des Données en PHP (60 min)
+## Phase 2 : Récupération des Données en PHP 
 
 ### Objectifs
 
@@ -68,7 +68,7 @@ echo "<p>Votre email est : $email</p>";
 
 -----
 
-## Phase 3 : Validation de Base et Sécurité (75 min)
+## Phase 3 : Validation de Base et Sécurité 
 
 ### Objectifs
 
