@@ -6,11 +6,11 @@ Cet atelier guidé couvre la création d'un formulaire HTML riche, sa soumission
 
 ## Phase 1 : Création du Formulaire HTML Avancé
 
-### 🎯 Objectifs
+### Objectifs
 * Définir un formulaire avec l'action (`action="traitement.php"`) et la méthode (`method="post"`) appropriées.
 * Utiliser différents types d'entrées, y compris les champs nécessitant des noms de tableau (`name="champ[]"`).
 
-### 🧑‍💻 Fichier : `index.php`
+### Fichier : `index.php`
 
 ```html
 <!DOCTYPE html>
@@ -76,13 +76,13 @@ Cet atelier guidé couvre la création d'un formulaire HTML riche, sa soumission
 
 ## Phase 2 : Récupération et Affichage des Données
 
-### 🎯 Objectifs
+### Objectifs
 
   * Utiliser la superglobale `$_POST` pour récupérer toutes les données.
   * **Point Clé :** Récupérer les données des **checkbox** et **select multiple** comme des **tableaux PHP**.
   * Utiliser la fonction PHP `implode()` pour afficher les données des tableaux.
 
-### 🧑‍💻 Fichier : `traitement.php` (Étape 1 : Récupération brute)
+### Fichier : `traitement.php` (Étape 1 : Récupération brute)
 
 ```php
 <?php
@@ -140,13 +140,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ## Phase 3 : Validation et Sécurité des Données
 
-### 🎯 Objectifs
+### Objectifs
 
   * Mettre en place la validation des champs obligatoires en utilisant `empty()` et `trim()`.
   * **Sécuriser les données affichées** en utilisant `htmlspecialchars()`.
   * Gérer l'affichage des erreurs ou le traitement final.
 
-### 🧑‍💻 Fichier : `traitement.php` (Étape 2 : Avec validation et sécurité)
+### Fichier : `traitement.php` (Étape 2 : Avec validation et sécurité)
 
 ```php
 <?php
