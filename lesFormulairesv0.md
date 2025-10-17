@@ -14,8 +14,8 @@ Cet atelier vise à comprendre le fonctionnement des formulaires HTML et leur tr
 
 ### Étapes
 
-1.  **Rappel (15 min) :** Discuter des rôles du client (HTML/CSS) et du serveur (PHP) dans la gestion des formulaires. Expliquer l'importance des attributs **`action`** (cible du script PHP) et **`method`** (`GET` ou `POST`).
-2.  **Création du fichier (30 min) :**
+1.  **Rappel :** Discuter des rôles du client (HTML/CSS) et du serveur (PHP) dans la gestion des formulaires. Expliquer l'importance des attributs **`action`** (cible du script PHP) et **`method`** (`GET` ou `POST`).
+2.  **Création du fichier  :**
       * Créez un fichier nommé **`index.php`**.
       * Ajoutez la structure HTML de base.
       * Créez un formulaire simple de connexion/inscription avec deux champs (Nom, Email) et un bouton de soumission.
@@ -45,7 +45,7 @@ Cet atelier vise à comprendre le fonctionnement des formulaires HTML et leur tr
 
 ### Étapes
 
-1.  **Création du script de traitement (30 min) :**
+1.  **Création du script de traitement :**
       * Créez un fichier nommé **`traitement.php`** (comme spécifié dans l'attribut `action`).
       * Utilisez **`$_POST`** pour récupérer les valeurs des champs Nom et Email.
       * Affichez les valeurs récupérées.
@@ -62,7 +62,7 @@ echo "<p>Votre email est : $email</p>";
 ?>
 ```
 
-2.  **Test et Observation (30 min) :**
+2.  **Test et Observation  :**
       * Tester le formulaire et observer le résultat.
       * **Exercice :** Changer la méthode du formulaire dans `index.php` de **`post`** à **`get`** et observer l'URL après soumission. Modifier le code PHP dans `traitement.php` pour utiliser **`$_GET`** à la place de `$_POST`. Discuter des différences (visibilité des données, limite de taille, cas d'utilisation).
 
@@ -79,7 +79,7 @@ echo "<p>Votre email est : $email</p>";
 
 ### Étapes
 
-1.  **Vérification de la soumission (20 min) :**
+1.  **Vérification de la soumission :**
       * Modifiez `traitement.php` pour vérifier si la variable est définie.
 
 <!-- end list -->
@@ -94,11 +94,11 @@ if (isset($_POST['nom']) && isset($_POST['email'])) {
 ?>
 ```
 
-2.  **Contrôle de champs vides (25 min) :**
+2.  **Contrôle de champs vides  :**
 
       * Ajouter une vérification pour s'assurer que les champs ne sont pas vides (**`!empty()`**). Afficher un message d'erreur si c'est le cas.
 
-3.  **Sécurité de base (15 min) :**
+3.  **Sécurité de base  :**
 
       * Introduire et utiliser la fonction **`htmlspecialchars()`** lors de l'affichage des données pour prévenir les attaques XSS (Cross-Site Scripting).
 
@@ -109,5 +109,5 @@ $nom_securise = htmlspecialchars($_POST['nom']);
 // ... afficher $nom_securise
 ```
 
-4.  **Optionnel/Avancé - Conservation des données (15 min) :**
+4.  **Optionnel/Avancé - Conservation des données  :**
       * Expliquer comment conserver la valeur d'un champ après une erreur de soumission, en insérant la valeur reçue dans l'attribut `value` du champ HTML (Exemple : `value="<?php echo isset($_POST['nom']) ? htmlspecialchars($_POST['nom']) : ''; ?>"`).
