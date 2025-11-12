@@ -193,8 +193,6 @@ session_start(); // **NÉCESSAIRE** pour accéder à la session existante
 // 1. Supprimer toutes les variables de session
 $_SESSION = array(); // Bonne pratique
 
-
-
 // 2. Détruire la session
 session_destroy();
 
